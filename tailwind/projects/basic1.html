@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="./src/output.css" /> -->
+    <title>Basics Tailwind</title>
+  </head>
+  <body>
+    <div class="h-screen grid grid-cols-[200px_1fr] grid-rows-[80px_1fr]">
+      <nav
+        class="w-full bg-blue-400 flex py-3 px-10 items-center justify-between col-span-3"
+      >
+        <h3 class="text-3xl font-bold">Nath Developer</h3>
+        <div class="flex list-none gap-5 text-[20px]">
+          <li>about</li>
+          <li>home</li>
+          <li>codes</li>
+        </div>
+      </nav>
+      <div class="bg-red-400 row-span-1">
+        hello i am side bar
+      </div>
+      <main class="bg-green-600">
+        hi ia am main
+      </main>
+    </div>
+  </body>
+</html>
