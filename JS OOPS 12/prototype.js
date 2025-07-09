@@ -24,4 +24,6 @@ let hp = {
 Object.setPrototypeOf(hp,nvidia);
 console.log("hp", Object.getPrototypeOf(hp));
 
+// Test
+
 
