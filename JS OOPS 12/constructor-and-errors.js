@@ -16,16 +16,18 @@ console.log(newVacancy2.describe());
 
 /////////////////////////
 
-function Animal(name) {
-  if( !new.target){
-    throw new Error("Please Write new");
+class Animal {
+  constructor(name) {
+    if (!new.target) {
+      throw new Error("Please Write new");
+    }
+    this.name = name;
   }
-  this.name = name;
+  sound() {
+    return `${this.name} sound is meow`;
+  }
 } 
 
-Animal.prototype.sound = function () {
-  return `${this.name} sound is meow`;
-};
 const cat = new Animal("Cheetah");
 const cat2 = Animal("Cheetah");
 console.log(cat.sound());
