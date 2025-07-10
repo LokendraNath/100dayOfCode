@@ -1,4 +1,4 @@
-/*
+
 const h1 = document.querySelector(".heading");
 h1.innerHTML = "lokendra";
 
@@ -12,7 +12,7 @@ changeTextBtn.addEventListener("click", function () {
 p.addEventListener("click", () => {
   p.innerHTML = "lorem 15";
 });
-*/
+
 
 // <!-- Eg3 : Create A inserting Element -->
 document.querySelector(".addCity").addEventListener("click", function () {
@@ -22,7 +22,7 @@ document.querySelector(".addCity").addEventListener("click", function () {
   lists.appendChild(newItem);
 });
 
-/*
+
 // <!-- Eg4 : remove Elements -->
 document.querySelector(".removeLastLi").addEventListener("click", function () {
   let lists = document.getElementById("list");
@@ -30,18 +30,18 @@ document.querySelector(".removeLastLi").addEventListener("click", function () {
 });
 
 
-// <!-- Eg6 : remove Elements -->
-// document.querySelector(".newBtn6").addEventListener("mouseover", function () {
-//   alert("Hey !! Lokendra");
-// });
+// <!-- Eg6 : Mouse Over Event Listener -->
+document.querySelector(".newBtn6").addEventListener("mouseover", function () {
+  alert("Hey !! Lokendra");
+});
 
-// // <!-- Eg7 : Event Deligations -->
+/// <!-- Eg7 : Event Deligations -->
 
-// document.querySelector("#footballerList").addEventListener("click", (e) => {
-//   if (e.target && e.target.matches(".players")) {
-//     alert(`Your Favorout Player is : ${e.target.textContent}`);
-//   }
-// });
+document.querySelector("#footballerList").addEventListener("click", (e) => {
+  if (e.target && e.target.matches(".players")) {
+    alert(`Your Favorout Player is : ${e.target.textContent}`);
+  }
+});
 
 // <!-- Eg8 : Form Handling -->
 
@@ -65,4 +65,3 @@ document.querySelector("#toggleHighlight").addEventListener("click", () => {
   let desText = document.querySelector("#descriptionText");
   desText.classList.toggle("highLight");
 });
-*/
