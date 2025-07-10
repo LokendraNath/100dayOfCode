@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="background-color: rgb(6, 2, 27); color: white">
+    <h1 class="heading">Hello User</h1>
+    <button class="changeTextBtn">Change Into "This"</button>
+    <p class="para">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis
+      repudiandae delectus suscipit mollitia vero soluta.
+    </p>
+
+    <!-- Eg2 : Traversing the  DOM -->
+    <section id="example-2">
+      <h2>Traversing The DOM</h2>
+      <ul id="citiesList">
+        <li>New York</li>
+        <li>Tokyo</li>
+        <li>Paris</li>
+        <li>London</li>
+      </ul>
+      <button class="changeFirstBgYello">Change First Text</button>
+    </section>
+
+    <!-- Eg3 : Create A inserting Element -->
+    <section id="example-3">
+      <h2>Create A inserting Element</h2>
+      <button class="addCity">Create A inserting Element</button>
+      <ul id="inserting-list">
+        <li>New York</li>
+        <li>Tokyo</li>
+        <li>Paris</li>
+        <li>London</li>
+      </ul>
+    </section>
+
+    <!-- Eg5 : Remove Item From the Lists -->
+    <section id="example-3">
+      <h2>Remove Item From the Lists</h2>
+      <button class="removeLastLi">Remove Item From the Lists</button>
+      <ul id="list">
+        <li>New York</li>
+        <li>Tokyo</li>
+        <li>Paris</li>
+        <li>London</li>
+      </ul>
+    </section>
+
+    <!-- Eg6 : Other Event Litseners -->
+    <section id="example-3">
+      <h2>Other Event Litseners</h2>
+      <button class="newBtn6">click me</button>
+    </section>
+
+    <!-- Eg7 : Event Deligations -->
+    <section id="example-7">
+      <h2>Event Deligations</h2>
+      <ul id="footballerList">
+        <li class="players">Ronaldo</li>
+        <li class="players">Messi</li>
+        <li class="players">MBAPPE</li>
+        <li class="players">Neymar Jr.</li>
+      </ul>
+    </section>
+
+    <!-- Example 8: Form Handling -->
+    <section
+      id="example-8"
+      style="height: 200px; color: white; border: 1px solid black"
+    >
+      <h2>Form Handling</h2>
+      <form id="feedbackForm">
+        <label for="feedbackInput">Your Feedback:</label>
+        <input
+          type="text"
+          class="feedbackInput"
+          id="feedbackInput"
+          placeholder="Enter feedback"
+        />
+        <button type="submit">Submit Feedback</button>
+      </form>
+      <p id="feedbackDisplay"></p>
+    </section>
+
+    <!-- Eg 9: DOM Content Loding -->
+    <secion id="example-9">
+      <h2>Dom Contet Loding</h2>
+      <p id="dom_status">Dom Content Load ....</p>
+    </secion>
+
+    <!-- Example 10: CSS Classes Manipulation -->
+    <section id="example-10">
+      <h2>CSS Classes Manipulation</h2>
+      <p id="descriptionText">This text will change color!</p>
+      <button id="toggleHighlight">Toggle Highlight</button>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

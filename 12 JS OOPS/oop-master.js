@@ -43,9 +43,9 @@ class X {
   }
 }
 const myAccount = new X();
-// console.log(myAccount.getEmail());
+console.log(myAccount.getEmail());
 myAccount.setEmail("lokendraverma@gmail.com");
-// console.log(myAccount.getEmail());
+console.log(myAccount.getEmail());
 
 //////////////////////////
 //===================== ABSTRACTION =====================
@@ -130,4 +130,4 @@ let lokendra = new EmployeeSalary("Lokendra", -30000);
 console.log(lokendra.salary);
 
 lokendra.salary = 50000;
-console.log(lokendra.getRealSalary());
+// console.log(lokendra.getRealSalary());
