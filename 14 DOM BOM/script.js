@@ -12,23 +12,7 @@ changeTextBtn.addEventListener("click", function () {
 p.addEventListener("click", () => {
   p.innerHTML = "lorem 15";
 });
-
-// <!-- Eg1 : Traversing the  DOM -->
-let lists = document.querySelector("#citiesList");
-let btn = document.querySelector(".changeFirstBgYello");
-
-btn.addEventListener("click", function () {
-  lists.firstElementChild.classList.add("highLight");
-});
-
-// <!-- Eg2 Manipulating DOM Elements -->
-
-document.querySelector(".changeOrder").addEventListener("click", function () {
-  let cofeeType = document.getElementById("coffeeType");
-  cofeeType.textContent = "Espresso";
-  cofeeType.style.backgroundColor = "red";
-  cofeeType.style.padding = "3px";
-});
+*/
 
 // <!-- Eg3 : Create A inserting Element -->
 document.querySelector(".addCity").addEventListener("click", function () {
@@ -38,12 +22,13 @@ document.querySelector(".addCity").addEventListener("click", function () {
   lists.appendChild(newItem);
 });
 
+/*
 // <!-- Eg4 : remove Elements -->
 document.querySelector(".removeLastLi").addEventListener("click", function () {
   let lists = document.getElementById("list");
   lists.lastElementChild.remove();
 });
-*/
+
 
 // <!-- Eg6 : remove Elements -->
 // document.querySelector(".newBtn6").addEventListener("mouseover", function () {
@@ -80,3 +65,4 @@ document.querySelector("#toggleHighlight").addEventListener("click", () => {
   let desText = document.querySelector("#descriptionText");
   desText.classList.toggle("highLight");
 });
+*/
